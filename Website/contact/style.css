@@ -1,0 +1,143 @@
+*{
+	padding: 0;
+	margin: 0;
+}
+body{
+    background: linear-gradient(45deg, #0000007a,#000000f2), url(../img/back.png);
+    background-size: cover;
+}
+header{
+    height: 100px;
+    background: transparent;
+}
+.logo{
+    float: left;
+    width: 30%;
+    margin-left: 7%;
+    background: none;
+    height: 100%;
+}
+.logo img{
+    height: 90%;
+    margin-top: 5px;
+}
+.menu{
+    float: left;
+    margin-left: 20%;
+}
+.menu ul li{
+    list-style: none;
+    float: left;
+    margin-left: 28px;
+    margin-top: 42px;
+}
+.menu ul li:last-child a{
+    color: #00A78E;
+    cursor: context-menu;
+}
+.menu ul li a{
+    text-decoration: none;
+    color: white;
+    font-size: 17px;
+    transition: .7s;
+    cursor:pointer;
+    font-family: arial;
+}
+.menu ul li a:hover{
+    color: #00A78E;
+}
+
+.box{
+    background: transparent;
+    height: 475px;
+    width: 900px;
+    box-shadow: 0 0 25px white;
+    margin-left: 18%;
+    margin-top: 3%;
+}
+
+.info, .info_img{
+    float: left;
+    height: 100%;
+}
+.info{
+    background: transparent;
+    width: 60%;
+}
+.info_img{
+    width: 40%;
+    background: transparent;
+}
+.info_img img{
+    height: 50%;
+    margin-left: 17%;
+    margin-top: 34%;
+}
+.info img{
+    height: 23%;
+    margin-left: 23px;
+}
+.info h2{
+    font-family: arial;
+    color: white;
+    font-size: 17px;
+    margin-left: 11%;
+    margin-top: -5%;
+    font-weight: 100;
+}
+.border{
+    height: 2px;
+    width: 86%;
+    background: white;
+    margin-left: 11%;
+    margin-top: 7%;
+    border-radius: 25px;
+}
+.details{
+    background: transparent;
+    height: 50%;
+    float: left;
+    font-family: monospace;
+    width: 80%;
+    font-size: 13px;
+    margin-left: 11%;
+    margin-top: 5%;
+    color: whitesmoke;
+    font-weight: 100;
+}
+.qu h3{
+    padding: 14%;
+}
+.qu{
+    height:100%;
+    float: left;
+    width: 24%;
+    background:transparent;
+}
+.ans{
+    height:100%;
+    float:left;
+    width: 76%;
+}
+.ans h3{
+    padding: 4%;
+    margin-top: 2px;
+}
+.social_icons{
+    height: 50px;
+    width: 200px;
+    margin-top: 49%;
+    margin-left: 71%;
+}
+.social_icons a{
+    text-decoration: none;
+    color: white;
+    float: left;
+    width: 16%;
+    font-size: 28px;
+    padding: 10px;
+    transition: .7s;
+}
+.social_icons a:hover{
+    color: #00A78E;
+}

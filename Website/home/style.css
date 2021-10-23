@@ -1,0 +1,146 @@
+*{
+	padding: 0;
+	margin: 0;
+}
+body{
+    background: url(../img/bg_home.png);
+    background-size: cover;
+    transition: 1s;	
+}
+header{
+    height: 100px;
+    background: transparent;
+}
+.logo{
+    float: left;
+    width: 30%;
+    margin-left: 7%;
+    background: none;
+    height: 100%;
+}
+.logo img{
+    height: 90%;
+    margin-top: 5px;
+}
+.menu{
+    float: left;
+    margin-left: 25%;
+}
+.menu ul li{
+    list-style: none;
+    float: left;
+    margin-left: 28px;
+    margin-top: 42px;
+}
+.menu ul li:first-child a{
+    color: #00A78E;
+    cursor: context-menu;
+}
+.menu ul li a{
+    text-decoration: none;
+    color: white;
+    font-size: 17px;
+    transition: .7s;
+    cursor:pointer;
+    font-family: arial;
+}
+.menu ul li a:hover{
+    color: #00A78E;
+}
+.second{
+    height: 550px;
+    background: transparent;
+}
+.socials{
+    height: 29%;
+    width: 4%;
+    position: absolute;
+    text-align: center;
+    background: white;
+    float:left;
+    margin-left: 2%;
+    box-shadow: 0 0 15px black;
+    text-decoration: none;
+    margin-top: 15%;
+    border-radius: 30px;
+    /* border: 1px solid; */
+}
+.second a{
+    font-size: 22px;
+    color: black;
+    transition: .7s;
+    text-decoration: none;
+}
+.second a:first-child i{
+    border-bottom: 1px solid black;
+}
+.second a:last-child i{
+    border-top: 1px solid black;
+}
+.second a:hover{
+    color: #00A78E;
+}
+.second a i {
+    font-weight: 400;
+    padding: 10px;
+    margin-top: 14px;
+}
+.info h2{
+    color: #00A78E;
+    font-family: monospace;
+    font-size: 31px;
+    margin-top: 10%;
+    position: absolute;
+    margin-left: 12%;
+}
+.info h1 {
+    color: #252525;
+    font-size: 46px;
+    font-family: -webkit-pictograph;
+    margin-top: 13%;
+    position: absolute;
+    margin-left: 12%;
+    font-weight: revert;
+}
+.info h3{
+    font-size: 17px;
+    color: #000000ad;
+    margin-top: 19%;
+    position: absolute;
+    font-weight: 500;
+    letter-spacing: 2px;
+    margin-left: 12%;
+    font-family: fantasy;
+}
+.info h4{
+    font-size: 17px;
+    color: #000000ad;
+    margin-top: 22.5%;
+    position: absolute;
+    font-weight: 200;
+    margin-left: 12%;
+    font-family: monospace;
+    width: 38%;
+}
+.info a{
+    text-decoration: none;
+}
+.info button{
+    position:absolute;
+    height: 47px;
+    width: 134px;
+    border: none;
+    background: #00A78E;
+    margin-top: 31%;
+    margin-left: 12%;
+    border-radius: 6px;
+    color: white;
+    font-size: 15px;
+    cursor: pointer;
+    transition: .7s;
+}
+.info button:hover{
+    background: white;
+    color: #00A78E;
+    box-shadow: 0 0 15px black;
+}

@@ -1,0 +1,48 @@
+*{
+	padding: 0;
+	margin: 0;
+}
+body{
+    background: url(../img/back.png);
+    background-size: cover;
+}
+header{
+    height: 100px;
+    background: transparent;
+}
+.logo{
+    float: left;
+    width: 30%;
+    margin-left: 7%;
+    background: none;
+    height: 100%;
+}
+.logo img{
+    height: 90%;
+    margin-top: 5px;
+}
+.menu{
+    float: left;
+    margin-left: 20%;
+}
+.menu ul li{
+    list-style: none;
+    float: left;
+    margin-left: 28px;
+    margin-top: 42px;
+}
+.menu ul li:last-child a{
+    color: #00A78E;
+    cursor: context-menu;
+}
+.menu ul li a{
+    text-decoration: none;
+    color: white;
+    font-size: 17px;
+    transition: .7s;
+    cursor:pointer;
+    font-family: arial;
+}
+.menu ul li a:hover{
+    color: #00A78E;
+}

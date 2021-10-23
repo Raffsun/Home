@@ -1,0 +1,217 @@
+@import url('https://fonts.googleapis.com/css2?family=Hind+Siliguri:wght@500&display=swap');
+
+
+*{
+	padding: 0;
+	margin: 0;
+}
+body{
+    background: white;
+    background-size: cover;
+}
+header{
+    height: 775px;
+    width: 100%;
+}
+.box112 {
+    width: 100%;
+    height: 775px;
+    position: fixed;
+    background: url(../img/Rbg.png) 0% 0% / cover;
+}
+.logo{
+    float: left;
+    width: 30%;
+    margin-left: 14%;
+    background: none;
+    height: 100%;
+    position: fixed;
+}
+.logo img{
+    height: 15%;
+    margin-top: 16px;
+    float: left;
+}
+
+.search {
+    float: left;
+    width: 41%;
+    height: 5%;
+    background: transparent;
+    border: none;
+    border-bottom: 1px solid white;
+    margin-top: -14.7%;
+    margin-left: 203%;
+}
+.search input {
+    padding: 2%;
+    margin-top: 3%;
+    border: none;
+    width: 105px;
+    margin-left: 13px;
+    background: transparent;
+    color: rgba(37, 37, 37, 0.671);
+    transition: 0.7s;
+}
+.search a {
+    text-decoration: none;
+    text-align: center;
+    font-size: 15px;
+    padding: 7px;
+    color: white;
+}
+.search input:hover {
+    width: 114px;
+}
+.me{
+    color: #f8f8f8;
+    float: left;
+    height: 305px;
+    width: 500px;
+    background: transparent;
+    margin-top: 88%;
+    margin-left: -575px;
+    text-align: center;
+}
+.me h1{
+    font-size: 41px;
+    padding: 5%;
+}
+.me p {
+    font-family: monospace;
+    word-spacing: -1.5px;
+    font-weight: 200;
+}
+.me button {
+    height: 42px;
+    width: 31%;
+    color: #00a78e;
+    background: #f8f8f8;
+    border: none;
+    margin-top: 10%;
+    font-size: 15px;
+    font-weight: 700;
+    cursor:pointer;
+    transition: .5s;
+}
+.me button:hover{
+    box-shadow: 0 0 15px black;
+}
+.big_box {
+    width: 100%;
+    box-shadow: black 0px 0px 20px;
+    position: relative;
+    margin-top: 1%;
+    height: 1746px;
+    background: rgb(248, 248, 248);
+}
+.bx{
+    margin-top: -11%;
+    width: 75%;
+    margin-left: 13%;
+    background: #f8f8f8;
+    height: 104%;
+    text-align: center;
+    box-shadow: 0 0 20px black;
+    position: absolute;
+}
+.bx h2{
+    color: #00a78e;
+    padding: 1%;
+    margin-top: 22px;
+    font-family: monospace;
+    font-size: 25px;
+}
+
+#line{
+    height: 1.5px;
+    width: 100px;
+    background:linear-gradient(45deg, #00a78e,black) ;
+    margin: auto;
+    padding: 0px;
+}
+.blogg{
+    background: transparent;
+    height: 70%;
+    margin-top: 9%;
+    margin-left: 10%;
+    width: 80%;
+}
+.blogg p{
+    font-family: 'Hind Siliguri', sans-serif;
+    font-size: 20px;
+}
+.big_box h4 {
+    font-family: arial;
+    margin-left: 65%;
+    position: absolute;
+    margin-top: 126%;
+}
+.box1 {
+    text-align: center;
+    height: 400px;
+    width: 400px;
+    margin-top: 23px;
+    float: left;
+    margin-left: 74px;
+    box-shadow: rgb(191, 191, 191) 0px 0px 5px;
+    background: white;
+}
+.box1 img {
+    height: 200px;
+    width: 200px;
+    margin-top: 32px;
+}
+.box1 h3 {
+    font-size: 30px;
+    color: rgb(41, 41, 41);
+    font-family: monospace;
+    padding: 20px;
+}
+.box1 a {
+    font-size: 16px;
+    font-family: -webkit-pictograph;
+    color: rgb(0, 166, 141);
+    text-decoration: none;
+    transition: all 0.7s ease 0s;
+}
+.box1 a:hover {
+    color: black;
+    border-bottom: 1px solid black;
+}
+
+.menu{
+    height: 212px;
+    width: 61px;
+    text-align: center;
+    margin-top: 89%;
+    background: white;
+    transition: 0.8s;
+    box-shadow: 0 0 7px black;
+    margin-left: 125%;
+    border-radius: 30px;
+}
+.menu a{
+    text-decoration: none;
+    color: #00a78e;
+    font-size: 24px;
+    transition: .7s;
+}
+.menu a i {
+    margin-top: 32px;
+}
+
+.menu a:first-child {
+    border-bottom: 1px solid #00a78e;
+    padding-bottom: 16px;
+}
+
+.menu a:last-child {
+    border-top: 1px solid #00a78e;
+    padding-top: 15px;
+}
+.menu:hover {
+    box-shadow: 0 0 25px black;
+}
+
+.menu a:hover {color: black;}
